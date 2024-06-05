@@ -204,7 +204,7 @@ Resources:
 
               return 'Processed: ' + str(record_count) + ' logs'
       Handler: index.handler
-      Runtime: python3.7
+      Runtime: python3.8
       Description: Function sorts findings by AWS account id/product/region
       MemorySize: 128
       Timeout: 300
